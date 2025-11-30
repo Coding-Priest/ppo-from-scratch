@@ -1,5 +1,3 @@
-Here is the clean, emoji-free Markdown content in a code block, ready for copy-pasting.
-
 # Proximal Policy Optimization (PPO) from Scratch
 
 A clean, modular implementation of Proximal Policy Optimization (PPO) using PyTorch. This project implements the PPO-Clip algorithm to solve the `Pendulum-v1` continuous control environment.
@@ -64,3 +62,4 @@ Hyperparameters are defined in `main.py`:
       * **Backbone:** Linear(64) -\> Tanh -\> Linear(64) -\> Tanh.
       * **Actor:** Outputs mean action; learns log standard deviation separately.
   * **Optimization:** Adam optimizer with orthogonal layer initialization.
+
